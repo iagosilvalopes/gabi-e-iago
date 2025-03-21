@@ -42,14 +42,13 @@
 <body>
 
     <div class="container">
-        <img src="https://https://imgur.com/8lBK5xI" alt="Gabi & Iago">
+        <img src="https://https://i.imgur.com/8lBK5xI.jpeg" alt="Gabi & Iago">
         <h1>Para Gabi 💖</h1>
         <p>Você é tudo para mim. Te amo mais do que palavras podem expressar!</p>
         <iframe src="https://www.youtube.com/embed/vsNO0yowkp4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
 <video autoplay muted loop>
   <source src="[seu-video.mp4](https://www.youtube.com/embed/vsNO0yowkp4)" type="video/mp4">
-  Seu navegador não suporta vídeos.
 </video>
 </body>
 </html>
