@@ -17,30 +17,52 @@
             width: 300px;
             border-radius: 10px;
         }
-        iframe, video {
+        iframe {
             margin-top: 20px;
             width: 560px;
             height: 315px;
+        }
+        button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #ff4081;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
         }
     </style>
 </head>
 <body>
 
     <div class="container">
-        <!-- Corrigindo a imagem do Imgur -->
+        <!-- Imagem correta -->
         <img src="https://i.imgur.com/8lBK5xI.jpeg" alt="Gabi & Iago">
         
         <h1>Para Gabi 💖</h1>
         <p>Você é tudo para mim. Te amo mais do que palavras podem expressar!</p>
         
-        <!-- Vídeo do YouTube com autoplay -->
-        <iframe src="https://www.youtube.com/embed/vsNO0yowkp4?autoplay=1&mute=1" 
+        <!-- Botão para ativar o som -->
+        <button onclick="ativarSom()">Ativar Som 🔊</button>
+
+        <!-- Vídeo do YouTube com autoplay (mutado por padrão) -->
+        <iframe id="video" 
+                src="https://www.youtube.com/embed/vsNO0yowkp4?autoplay=1&mute=1" 
                 frameborder="0" 
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
                 allowfullscreen>
         </iframe>
 
     </div>
+
+    <script>
+        function ativarSom() {
+            let iframe = document.getElementById("video");
+            let src = iframe.src;
+            iframe.src = src.replace("mute=1", "mute=0"); // Remove mute da URL
+        }
+    </script>
 
 </body>
 </html>
