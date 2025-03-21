@@ -18,7 +18,7 @@
         }
 
         .container {
-            width: 90%; /* Ajuste a largura conforme necessário */
+            width: 90%;
             max-width: 600px;
             padding: 20px;
             background: #fff;
@@ -45,7 +45,7 @@
 
         iframe {
             width: 100%;
-            height: 315px; /* Ajuste a altura conforme necessário */
+            height: 315px;
             border: none;
             margin-top: 20px;
         }
@@ -59,7 +59,7 @@
         <iframe 
             width="100%" 
             height="315" 
-            src="https://www.youtube.com/embed/vsNO0yowkp4?autoplay=1" 
+            src="https://www.youtube.com/embed/vsNO0yowkp4?autoplay=1&mute=1" 
             frameborder="0" 
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
             allowfullscreen>
